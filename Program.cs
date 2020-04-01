@@ -32,6 +32,10 @@ namespace homework3103
             Console.WriteLine(summa);
             srar = (double)summa/N;
             Console.WriteLine(srar);
+             for (int i = 0; i < N; i+=2)
+            {
+                Console.WriteLine(numbers1[i]);
+            }
             }
             {/// ex #3 
             int[] numbers = new int[5] {1,2,3,4,5};
